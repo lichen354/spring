@@ -1,6 +1,0 @@
-Spring提供了一个工具类JdbcTemple，该类对jdbc的操作进行了轻量级别的封装
-我们一般使用mybatis
-
-
-JdbcTemplet常用API接口
-	update：方法可以执行一次sql语句完成数据更新操作（增删改）
