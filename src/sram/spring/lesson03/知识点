@@ -1,0 +1,20 @@
+依赖注入
+Spring 框架的 IOC 容器采用两种方法实现：
+	setter方法注入：通过 JavaBean的属性分配依赖性。   
+		<property  name=""  ref=""/> name和setXXX set后面的单词一样！
+		
+		
+	构造器注入：依赖性以构造函数的形式提供，不以 JavaBean 属性的形式公开。
+		<constructor-arg index="0" ref=""></constructor-arg>
+		
+		<constructor-arg index="0" value="240" type="int/String/char...."></constructor-arg>
+	
+	
+<bean id=" " class=" " scope="singleton" />  
+
+<import resource="com/etc/beanconfig/base.xml"/
+
+
+p 标签 
+	<property> 简写到<bean>中
+	<bean id="person" class="" p:age="21" p:car-ref="tool"/>  

@@ -1,0 +1,17 @@
+注解配置
+	* aop命名空间【重要】
+	1.1 xml中 配置aspectj <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+	1.2 声明切面 @Aspect 以及 Component 让ioc接管bean
+	1.3 方法前 加入 注解 @befor( "execute public int classPath.className.methodName(T1,T2)")
+	1.4 beforMehod(JoinPoint jp)
+					|- jp.getSignature().getName(); 方法名
+					|- jp.getArgs(); 方法参数
+	@Befor 前置通知
+	@After 后置通知
+	@AfterReturning 返回通知，在方法返回结果后执行
+	@AfterThrowding 异常通知
+	@Around 环绕通知
+	
+切面的优先级
+	@Order(1)  值越小,优先级越高
+	

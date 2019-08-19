@@ -1,0 +1,19 @@
+springAOP 
+
+一、什么是AOP 面向切面编程
+	把对象切开  抽取公共的部分 到一个切面类中
+	
+二、好处
+	代码清晰  讲业务与功能代码分离
+	
+三、原理
+	动态代理 和 ioc
+
+四、配置方式
+	1. aspectj注解配置方式
+		|- spring 官网下载的lib中没有包括aspectj的jar 
+											|-aspectjweaver.jar和aspectjrt-1.5.0.jar
+		|- 我们还需要aopalliance.jar
+	2. xml配置方式
+	
+	配置文件配置

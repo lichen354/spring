@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="instanceFactory" class="sram.spring.lesson02.bean实例化方式.实例工厂方式.InstanceFactory"></bean>
+	
+	<bean id="product01" class="sram.spring.lesson02.bean实例化方式.实例工厂方式.Product"
+		factory-bean="instanceFactory" factory-method="getProduct"
+	></bean>
+</beans>

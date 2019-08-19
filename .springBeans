@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.2.201712210913-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/sram/spring/lesson02/bean实例化方式/静态工厂方式/applicationContext.xml</config>
+		<config>src/sram/spring/lesson02/bean实例化方式/实例工厂方式/applicationContext.xml</config>
+		<config>src/sram/spring/lesson02/懒加载和创建销毁方法/applicationContext.xml</config>
+		<config>src/sram/spring/lesson03/构造器注入/applicationContext.xml</config>
+		<config>src/sram/spring/lesson02/bean实例化方式/构造器方式/applicationContext.xml</config>
+		<config>src/sram/spring/lesson03/set注入/applicationContext.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
